@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="formcontainer">
+        <h1>Forms</h1>
+        <form action="#">            
+            <fieldset class="personal">
+                <legend>Personal Data</legend>
+                <label for="first">First name
+                    <input type="text" id="first" name="first" placeholder="">
+                </label>
+                <label for="last">Last name
+                    <input type="text" id="last" name="last" placeholder="">
+                </label>
+                <label for="street">Street
+                    <input type="text" id="street" name="street" placeholder="">
+                </label>
+                <label for="zipcode">Zipcode
+                    <input type="text" id="zipcode" name="zipcode" placeholder="">
+                </label>
+                <label for="city">City
+                    <input type="text" id="city" name="city" placeholder="">
+                </label>
+                <label for="phone">Phone
+                    <input type="number" id="phone" name="phone" placeholder="">
+                </label>
+                <label for="email">Email
+                    <input type="email" id="email" name="email" placeholder="">
+                </label>
+                <label for="comments">First name
+                    <input type="text" id="comments" name="comments" placeholder="">
+                </label>
+
+            </fieldset>
+            <div class="products-container">
+                <fieldset>
+                    <legend>Products</legend>
+                    <label>Web Design
+                        <input type="radio"  name="web-design" value="individual">Individual
+                        <input type="radio" name="web-design" value="template">Template
+                    </label>
+                    <label>Web Development
+                        <input type="checkbox" name="web-development" value="html-css">HTML &amp CSS
+                        <input type="checkbox" name="web-development" value="javascript">JavaScript
+                        <input type="checkbox" name="web-development" value="mongodb">MongoDB
+                    </label>
+                    <label for="start">Project Start
+                        <input type="date" id="start" name="start">
+                    </label>
+                    <label for="end">Project End
+                        <input type="date" id="end" name="end">
+                    </label>
+                    <label for="category">Category
+                        <select id="category">
+                            <option value="PS">Personal</option>
+                            <option value="BS">Business</option>
+                        </select>
+                    </label>
+                    
+                </fieldset>
+        
+                <input type="submit" value="Order our Services">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

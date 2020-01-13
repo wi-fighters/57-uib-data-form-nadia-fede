@@ -1,0 +1,23 @@
+{
+  "name": "57-uib-data-form-nadia-fede",
+  "version": "1.0.0",
+  "description": "Form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "dart-sass --watch scss/style.scss style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wi-fighters/57-uib-data-form-nadia-fede.git"
+  },
+  "author": "Nadia and Federico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wi-fighters/57-uib-data-form-nadia-fede/issues"
+  },
+  "homepage": "https://github.com/wi-fighters/57-uib-data-form-nadia-fede#readme",
+  "devDependencies": {
+    "dart-sass": "^1.24.4"
+  }
+}
