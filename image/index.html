@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Form</h1>
+    </header>
+    <form action="#" class="form__container">
+        <fieldset class="personal__container">
+            <legend>Personal Data</legend>
+            <label for="firstName"> First Name:
+                <input type="text" name="firstName" id="firstName">
+            </label>
+            <label for="lastName"> Last Name:
+                <input type="text" name="lastName" id="lastName">
+            </label>
+            <label for="street"> Street:
+                <input type="text" name="street" id="street">
+            </label>
+            <label for="zipCode"> Zip Code:
+                <input type="text" name="zipCode" id="zipCode">
+            </label>
+            <label for="city"> City:
+                <input type="text" name="city" id="city">
+            </label>
+            <label for="phone"> Phone:
+                <input type="text" name="phone" id="phone">
+            </label>
+            <label for="email"> Email: 
+                <input type="email" name="email" id="email">
+            </label>
+            <label for="comments"> Comments: </label>
+            <textarea name="comments" id="comments" rows="5"> Tell us more about ... </textarea>
+        </fieldset>
+        
+        <div class="inner__container">
+        <fieldset class="products__container">
+                <legend>Products</legend>
+
+                <h4>Web Design</h4>
+            
+                <div>
+                    <input type="radio" name="individual" id="individual" value="individual" checked>
+                    <label for="individual"> Individual</label>   
+                </div>
+                <div> 
+                    <input type="radio" name="template" id="template" value="template">
+                    <label for="template"> Template</label>
+                </div>    
+                <h4>Web Development</h4>
+                <div> 
+                    <input type="checkbox" name="html" id="html" value="html">
+                    <label for="html"> HTML & CSS</label>
+                </div>
+                <div>    
+                    <input type="checkbox" name="javaScript" id="javaScript" value="javaScript">
+                    <label for="javaScript"> JavaScript</label>
+                </div>        
+                <div>
+                    <input type="checkbox" name="mongo" id="mongo" value="mongo">
+                    <label for="mongo"> MongoDB</label>
+                </div>    
+                <label for="start"> Project start:
+                    <input type="date" name="start" id="start">
+                </label>
+                <label for="end"> Project end:
+                    <input type="date" name="end" id="end">
+                </label>
+                <label for="category"> Category: 
+                    <select id="category"> 
+                        <optgroup> 
+                            <option value="Personal"> Personal</option>
+                            <option value="Business"> Business</option>
+                        </optgroup>
+                    </select>
+                </label>    
+            </fieldset>
+            <button type="submit">Order our services</button>
+        </div>
+    </form>
+    
+</body>
+</html>
